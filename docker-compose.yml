@@ -15,7 +15,7 @@ services:
   wordpress:
     depends_on:
       - db
-    image: hysryt/wordpress-for-mailcatcher:1.1
+    image: hysryt/wordpress-for-mailcatcher:1.2
     volumes:
       - ./wordpress:/var/www/html
     ports:
